@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 3fr 0.1fr;
+    grid-template-rows: 1fr 1fr 2fr 2fr 2fr 0.1fr;
+    row-gap: 0.2rem;
+    grid-template-areas:
+        "header header header header"
+        "menu sec1 sec1 aside"
+        "not1 not1 not1 not1"
+        "not2 not2 not2 not2"
+        "not3 not3 not3 not3"
+        "footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.header nav ul a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+.header nav ul a:hover {
+    background-color: #888;
+    color: black;
+}
+
+.sec1 h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.sec1 h3 {
+    text-align: center;
+    color: oldlace;
+}
+.menu {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    height: 300px;
+    width: auto;
+    justify-content: space-between;
+    background-color: rgb(226, 213, 198);
+    grid-area: menu;
+}
+.sec1 {
+
+    margin: 0.1rem;
+    padding: 0.1rem;
+    display: flex;
+    padding: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: sec1;
+}
+
+
+.aside {
+    display: flex;
+    padding: 0.5rem;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: aside;
+}
+.aside img{
+    border: 0.1rem solid black;
+    width: 200px;
+    height: 400px;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+.colorr{
+    color: rgb(0, 0, 0);
+    background-color: rgb(121, 93, 93);
+    opacity: 0.9;
+}
+
+.aside2 {
+    grid-area: aside2;
+}
+
+.nota1{
+    
+    display: flex;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    flex-direction: row;
+    align-items:center;
+    border: 10px solid gray;
+    background-color: rgb(153, 142, 142);
+    transition: all 2s ease;
+}
+
+.not1 {
+    padding: .3rem;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    grid-area: not1;
+}
+.nota1 h3{
+    text-align: center;
+    color: oldlace;
+    font-size: 2rem;
+
+}
+.nota1:hover{
+    transform: scale(0.9);
+    border-radius: 20%;
+}
+.nota1 img{
+    align-items: flex-start;
+    width: 310px;
+    height: auto;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.nota1 a{
+    text-decoration: none;
+    transition: all 2s ease;
+    
+}
+.nota1 a:hover{
+    transform: scale(0.8);
+    border-radius: 20%;
+}
+.nota1 p{
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.nota2{
+    
+    display: flex;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    flex-direction: row-reverse;
+    align-items:center;
+    border: 10px solid gray;
+    background-color: rgb(153, 142, 142);
+    transition: all 2s ease;
+}
+
+.not2 {
+    padding: .2rem;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    grid-area: not2;
+}
+.nota2 h3{
+    text-align: center;
+    color: oldlace;
+    font-size: 2rem;
+
+}
+.nota2:hover{
+    transform: scale(0.9);
+    border-radius: 20%;
+}
+.nota2 img{
+    align-items: flex-start;
+    width: 310px;
+    height: auto;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.nota2 a{
+    text-decoration: none;
+    transition: all 2s ease;
+    
+}
+.nota2 a:hover{
+    transform: scale(0.8);
+    border-radius: 20%;
+}
+.nota2 p{
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    flex-direction: column;
+}
+
+.nota3{
+    
+    display: flex;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    flex-direction: row;
+    align-items:center;
+    border: 10px solid gray;
+    background-color: rgb(153, 142, 142);
+    transition: all 2s ease;
+}
+
+.not3 {
+    padding: 0.2rem;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    grid-area: not3;
+}
+.nota3 h3{
+    text-align: center;
+    color: oldlace;
+    font-size: 2rem;
+
+}
+.nota3:hover{
+    transform: scale(0.9);
+    border-radius: 20%;
+}
+.nota3 img{
+    align-items: flex-start;
+    width: 310px;
+    height: auto;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.nota3 a{
+    text-decoration: none;
+    transition: all 2s ease;
+    
+}
+.nota3 a:hover{
+    transform: scale(0.8);
+    border-radius: 20%;
+}
+.nota3 p{
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    flex-direction: column;
+}
+.footer {
+    
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    grid-area: footer;
+}
+
+.footer img {
+    width: 30px;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    position:right;
+}
+.top {
+    position: fixed;
+    bottom: 3rem;
+    right: 1rem;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: rgb(253, 253, 253);
+    border-radius: 10px;
+}
+
+.naranja {
+    background-color: rgb(92, 92, 92);
+}
+
+.white {
+    color: azure;
+}
+
+.blu {
+    color: blueviolet;
+}
+
+body {
+    background-color: silver;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+}
+@media only screen and (max-width:950px){
+    .not1 img{
+        width: 150%;
+        height: auto;
+    }
+    .nota1{
+        height: auto;
+        width: 100%;
+        justify-content:space-between;
+    }
+    .nota2{
+        height: auto;
+        width: 100%;
+    }
+    .not1 p{
+        font-size: 1rem;
+    }
+    .not2 img{
+        width: 100%;
+        height: auto;
+     
+    }
+    .not2 p{
+        font-size:1rem;
+    }
+    .not1 h3{
+        font-size: 1rem;
+    }
+    .not2 h3{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:480px){
+    .not1 img{
+        width: 100%;
+        height: auto;
+    }
+    .nota1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .nota2{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .not1 p{
+        font-size: 1rem;
+    }
+    .not2 img{
+        width: 100%;
+        height: auto;
+     
+    }
+    .not2 p{
+        font-size:1rem;
+    }
+    .not1 h3{
+        font-size: 1rem;
+    }
+    .not2 h3{
+        font-size: 1rem;
+    }
+}
