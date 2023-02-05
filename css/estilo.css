@@ -22,6 +22,7 @@
 }
 
 .header {
+    width: 100%;
     grid-area: header;
     font-family: 'Times New Roman', Times, serif;
 
@@ -45,7 +46,7 @@
     background-color: #888;
     color: black;
 }
-header h2 {
+.header h2 {
     color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
     margin: auto;
@@ -378,7 +379,10 @@ header h2 {
 }
 
 body {
-    background-color: silver;
+
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
 }
 
 .logo {
