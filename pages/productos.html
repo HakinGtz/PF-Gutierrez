@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HGBiomedics</title>
+    <title>Servicios y productos|HGBiomedics</title>
+    <meta name="description" content="Sección de catalogo de nuestros servicios y productos">
+  <meta name="keywords" content="BIOMEDICA, PRÓTESIS, DISPOSITIVOS, SERVICIO, MANTENIMIENTO, INGENIEROS">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
@@ -17,7 +19,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="containerProductos">
         <header class="header">
             <nav class="navbar navbar-expand-lg naranja">
                 <div class="container-fluid">
@@ -60,89 +62,48 @@
                         Inicia sesión
                     </button>
                     <form class="dropdown-menu p-4">
-                        <div class="mb-3">
-                            <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleDropdownFormEmail2"
-                                placeholder="email@example.com">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleDropdownFormPassword2"
-                                placeholder="Password">
-                        </div>
-                        <div class="mb-3">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-                                <label class="form-check-label" for="dropdownCheck2">
-                                    Remember me
-                                </label>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Sign in</button>
-                    </form>
+                      <div class="mb-3">
+                          <label for="exampleDropdownFormEmail2" class="form-label">Correo electrónico</label>
+                          <input type="email" class="form-control" id="exampleDropdownFormEmail2"
+                              placeholder="email@example.com">
+                      </div>
+                      <div class="mb-3">
+                          <label for="exampleDropdownFormPassword2" class="form-label">Contraseña</label>
+                          <input type="password" class="form-control" id="exampleDropdownFormPassword2"
+                              placeholder="Password">
+                      </div>
+                      <div class="mb-3">
+                          <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                              <label class="form-check-label" for="dropdownCheck2">
+                                  Recordarme
+                              </label>
+                          </div>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                      <a class="nav-link" href="#" target="_blank">¿No tienes cuenta? Registrate</a>
+                  </form>
                 </div>
             </nav>
-            <h2>HgBiomedics</h2>
+            <h1 class="animate__animated animate__lightSpeedInRight">HgBiomedics</h1>
             <br>
         </header>
 
         <div class="menu">
-            
-            <div class="btn-group">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Servicio ténico
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Soporte técnico</a></li>
-                  <li><a class="dropdown-item" href="#">Mantenimiento</a></li>
-                  <li><a class="dropdown-item" href="#"></a></li>
-                </ul>
-              </div>
-      
-              <div class="btn-group">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Equipo médico
-                </button>
-                <ul class="dropdown-menu dropdown-menu-end">
-                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                </ul>
-              </div>
-      
-              <div class="btn-group">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                  data-bs-display="static" aria-expanded="false">
-                  Prótesis y órtesis
-                </button>
-                <ul class="dropdown-menu dropdown-menu-lg-end">
-                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                </ul>
-              </div>
-      
-              <div class="btn-group">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                  data-bs-display="static" aria-expanded="false">
-                  Placas para trauma
-                </button>
-                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                </ul>
-              </div>
+          
+            <button class="btn btn-secondary" type="button" aria-expanded="false"><a class="dropdown-item" href="#">Mi
+                    Perfil</a>
+            </button>
+            <button class="btn btn-secondary" type="button" aria-expanded="false"><a class="dropdown-item"
+                    href="#">¿Buscas empleo?</a></button>
       
         </div>
 
-        <main class="sec1">
+        <main class="secServicios">
             
             <h3>Nuestros servicios</h3>
             <br>
-            <div class="prod">
+            <div>
                 <a href="#"><h3>Servicio tecnico</h3>
                 <img src="../assetscontacto/mpycem.png" alt=""></a>
                 <a href="#"><h3>Equipo médico</h3>
@@ -160,7 +121,53 @@
                     alt=""></a>
                 </section>
         </aside>
-        
+    <div class="menu2">
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Servicio ténico
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Soporte técnico</a></li>
+          <li><a class="dropdown-item" href="#">Mantenimiento</a></li>
+          <li><a class="dropdown-item" href="#"></a></li>
+        </ul>
+      </div>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Equipo médico
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Nebulizadores</a></li>
+          <li><a class="dropdown-item" href="#">Camillas</a></li>
+          <li><a class="dropdown-item" href="#">Monitor de signos vitales</a></li>
+        </ul>
+      </div>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+          data-bs-display="static" aria-expanded="false">
+          Prótesis y órtesis
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg-end">
+          <li class="dropdown-item dropdown-menu dropdown-menu-lg-end"><a href="#">Prótesis</a>
+          <li class="dropdown-item">Prótesis mécanica<a href="#"></a>
+          </li>
+          <li class="dropdown-item"><a href="#">Prótesis estética</a></li>
+          </li>
+          <li><a class="dropdown-item" href="#">Órtesis</a></li>
+        </ul>
+      </div>
+      <button class="btn btn-secondary" type="button" aria-expanded="false"><a class="dropdown-item" href="#">Placas para trauma</a>
+      </button>
+    </div>
+    <div class="productos">
+      <div class="monSig">
+
+      </div>
+    </div>
     <footer class="footer naranja">
         <h3>©2022 HGBiomedics Solutions </h3>
         <div class="redes">
