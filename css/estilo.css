@@ -66,12 +66,8 @@ body {
     justify-content: center; }
   .secServicios h3 {
     text-align: center;
-<<<<<<< HEAD
-    color: oldlace; }
-=======
     color: oldlace;
     font-size: 1rem; }
->>>>>>> 1bfaf4c (Proyecto Final)
   .secServicios div {
     display: flex;
     flex-direction: row;
@@ -83,18 +79,12 @@ body {
     border: 2px solid beige; }
   .secServicios img {
     align-items: center;
-<<<<<<< HEAD
-    width: 20rem;
-=======
     width: 10rem;
->>>>>>> 1bfaf4c (Proyecto Final)
     transition: all 1s ease; }
     .secServicios img:hover {
       transform: scale(1.2);
       border-radius: 20%; }
 
-<<<<<<< HEAD
-=======
 .catalogo div {
   display: flex;
   flex-direction: row;
@@ -106,7 +96,6 @@ body {
     align-items: flex-start;
     width: 25rem; }
 
->>>>>>> 1bfaf4c (Proyecto Final)
 .menu {
   margin: auto;
   padding: 20px;
@@ -404,15 +393,9 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: 0.5fr 3fr 2.5fr 0.1fr;
-<<<<<<< HEAD
-  grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 0.1fr;
-  row-gap: 0.2rem;
-  grid-template-areas: "header header header header" "menu secServicios secServicios aside" "menu secServicios secServicios aside" "menu2 productos productos productos" "menu2 productos productos productos" "footer footer footer footer"; }
-=======
   grid-template-rows: 0.2fr 1fr 1fr 0.1fr;
   row-gap: 0.2rem;
   grid-template-areas: "header header header header" "menu secServicios secServicios aside" "menu secServicios secServicios aside" "footer footer footer footer"; }
->>>>>>> 1bfaf4c (Proyecto Final)
 
 @media only screen and (max-width: 990px) {
   .container {
@@ -426,11 +409,7 @@ body {
   .containerProductos {
     grid-template-columns: 0.5fr 3fr;
     grid-template-rows: repeat(7, auto);
-<<<<<<< HEAD
-    grid-template-areas: "header header" "menu menu" "secServicios secServicios" "aside aside" "menu2 productos" "menu2 productos" "footer footer"; }
-=======
     grid-template-areas: "header header" "menu menu" "secServicios secServicios" "aside aside" "footer footer"; }
->>>>>>> 1bfaf4c (Proyecto Final)
   .containerCont {
     grid-template-columns: 0.5fr 3fr;
     grid-template-rows: 0.2fr 1fr 1fr 0.1fr;
@@ -438,17 +417,6 @@ body {
     grid-template-areas: "header header" "menu sec1" "aside aside" "not1 not1" "footer footer"; }
   .menu {
     height: auto; }
-<<<<<<< HEAD
-  .sec1 h3 {
-    font-size: 1rem; }
-  .sec1 h5 {
-    font-size: 1rem; }
-  .sec1 p {
-    font-size: 0.8rem; }
-  .sec1 {
-    width: 100%;
-    height: auto; }
-=======
   .sec1 {
     width: 100%;
     height: auto; }
@@ -458,7 +426,6 @@ body {
       font-size: 1rem; }
     .sec1 p {
       font-size: 0.8rem; }
->>>>>>> 1bfaf4c (Proyecto Final)
   .aside img {
     width: 100%;
     margin: 1rem;
@@ -519,13 +486,8 @@ body {
       height: 3rem; }
   .containerProductos {
     grid-template-columns: 0.5fr 3fr;
-<<<<<<< HEAD
-    grid-template-rows: repeat(7, auto);
-    grid-template-areas: "header header" "menu menu" "secServicios secServicios" "aside aside" "menu2 productos" "menu2 productos" "footer footer"; }
-=======
     grid-template-rows: repeat(5, auto);
     grid-template-areas: "header header" "menu menu" "secServicios secServicios" "aside aside" "footer footer"; }
->>>>>>> 1bfaf4c (Proyecto Final)
   .containerCont {
     grid-template-columns: 0.5fr 3fr;
     grid-template-rows: 0.2fr 1fr 1fr 0.1fr;
@@ -552,18 +514,12 @@ body {
       color: #fff; }
   .colorr h5 {
     font-size: 0.1rem; }
-<<<<<<< HEAD
-  .nota1 {
-    height: auto;
-    width: 100%;
-=======
   .catalogo div img {
     align-items: flex-start;
     width: 15rem; }
   .nota1 {
     height: auto;
     width: 90%;
->>>>>>> 1bfaf4c (Proyecto Final)
     flex-direction: column; }
     .nota1 img {
       width: 100%;
@@ -576,30 +532,16 @@ body {
     align-items: center; }
   .nota2 {
     height: auto;
-<<<<<<< HEAD
-    width: 100%;
-    flex-direction: column; }
-    .nota2 img {
-      height: auto;
-      justify-content: center; }
-=======
     width: 90%;
     flex-direction: column;
     justify-content: center; }
     .nota2 img {
       width: 100%;
       height: auto; }
->>>>>>> 1bfaf4c (Proyecto Final)
     .nota2 p {
       font-size: 1rem; }
   .nota3 {
     height: auto;
-<<<<<<< HEAD
-    width: 100%;
-    flex-direction: column; }
-    .nota3 h3 {
-      font-size: 1rem; }
-=======
     width: 90%;
     flex-direction: column; }
     .nota3 h3 {
@@ -607,7 +549,6 @@ body {
     .nota3 img {
       width: 100%;
       height: auto; }
->>>>>>> 1bfaf4c (Proyecto Final)
     .nota3 p {
       font-size: 1rem; }
   .prod img {
@@ -628,11 +569,7 @@ body {
   .containerProductos {
     grid-template-columns: 0.5fr 3fr;
     grid-template-rows: repeat(7, auto);
-<<<<<<< HEAD
-    grid-template-areas: "header header" "menu menu" "secServicios secServicios" "aside aside" "menu2 productos" "menu2 productos" "footer footer"; }
-=======
     grid-template-areas: "header header" "menu menu" "secServicios secServicios" "aside aside" "footer footer"; }
->>>>>>> 1bfaf4c (Proyecto Final)
   .containerCont {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 0.1fr;

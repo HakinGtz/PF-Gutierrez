@@ -48,21 +48,12 @@
     width: 100%;
     display: grid;
     grid-template-columns: 0.5fr 3fr 2.5fr 0.1fr;
-<<<<<<< HEAD
-    grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 0.1fr;
-=======
     grid-template-rows: 0.2fr 1fr 1fr 0.1fr;
->>>>>>> 1bfaf4c (Proyecto Final)
     row-gap: 0.2rem;
     grid-template-areas:
         "header header header header"
         "menu secServicios secServicios aside"
         "menu secServicios secServicios aside"
-<<<<<<< HEAD
-        "menu2 productos productos productos"
-        "menu2 productos productos productos"
-=======
->>>>>>> 1bfaf4c (Proyecto Final)
         "footer footer footer footer";
 }
 

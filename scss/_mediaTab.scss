@@ -35,21 +35,12 @@
     }
     .containerProductos{
         grid-template-columns: 0.5fr 3fr;
-<<<<<<< HEAD
-        grid-template-rows: repeat(7, auto);
-=======
         grid-template-rows: repeat(5, auto);
->>>>>>> 1bfaf4c (Proyecto Final)
         grid-template-areas:
             "header header"
             "menu menu"
             "secServicios secServicios"
             "aside aside"
-<<<<<<< HEAD
-            "menu2 productos"
-            "menu2 productos"
-=======
->>>>>>> 1bfaf4c (Proyecto Final)
             "footer footer";
     }
     .containerCont {
@@ -90,11 +81,6 @@
     .colorr h5{
         font-size: 0.1rem;
     }
-<<<<<<< HEAD
-    .nota1 {
-        height: auto;
-        width: 100%;
-=======
     .catalogo{
         div{
             img{
@@ -106,7 +92,6 @@
     .nota1 {
         height: auto;
         width: 90%;
->>>>>>> 1bfaf4c (Proyecto Final)
         flex-direction: column;
         img{
             width: 100%;
@@ -124,15 +109,6 @@
     }
     .nota2{
         height: auto;
-<<<<<<< HEAD
-        width: 100%;
-        flex-direction: column;
-        img{
-            height: auto;
-            justify-content: center;
-         
-        }   
-=======
         width: 90%;
         img{
             width: 100%;
@@ -140,7 +116,6 @@
         }
         flex-direction: column;
         justify-content: center;   
->>>>>>> 1bfaf4c (Proyecto Final)
         p{
             font-size:1rem;
         }     
@@ -152,15 +127,11 @@
             font-size: 1rem;
         }
         height: auto;
-<<<<<<< HEAD
-        width: 100%;
-=======
         width: 90%;
         img{
             width: 100%;
             height: auto;
         }
->>>>>>> 1bfaf4c (Proyecto Final)
         flex-direction: column;
         p{
             font-size: 1rem;
