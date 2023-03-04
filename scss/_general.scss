@@ -62,6 +62,10 @@
     h3 {
         text-align: center;
         color: oldlace;
+<<<<<<< HEAD
+=======
+        font-size: 1rem;
+>>>>>>> 1bfaf4c (Proyecto Final)
     }
     div{
         display: flex;
@@ -75,7 +79,11 @@
     }
     img{
         align-items: center;
+<<<<<<< HEAD
         width: 20rem;
+=======
+        width: 10rem;
+>>>>>>> 1bfaf4c (Proyecto Final)
         transition: all 1s ease;
         &:hover{
             transform: scale(1.2);
@@ -83,7 +91,24 @@
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+.catalogo{
+    div{
+        img{
+            align-items: flex-start;
+            width: 25rem;
+        }
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+>>>>>>> 1bfaf4c (Proyecto Final)
 .menu {
     margin: auto;
     padding: 20px;

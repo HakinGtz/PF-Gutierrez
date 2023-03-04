@@ -29,8 +29,11 @@
             "menu menu"
             "secServicios secServicios"
             "aside aside"
+<<<<<<< HEAD
             "menu2 productos"
             "menu2 productos"
+=======
+>>>>>>> 1bfaf4c (Proyecto Final)
             "footer footer";
     }
     .containerCont {
@@ -47,6 +50,7 @@
     .menu {
         height: auto;
     }
+<<<<<<< HEAD
     .sec1 h3{
         font-size: 1rem;
     }
@@ -60,6 +64,23 @@
         width: 100%;
         height: auto;
     }
+=======
+    .sec1 {
+        width: 100%;
+        height: auto;
+        h3{
+            font-size: 1rem;
+        }
+        h5{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+    
+    
+>>>>>>> 1bfaf4c (Proyecto Final)
     .aside img{ 
         width: 100%;
         margin: 1rem;
